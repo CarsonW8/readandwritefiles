@@ -10,12 +10,12 @@ next(csv_file) #skips a row
 
 x = 0
 
-outfile.write("Full name, Country\n")
+outfile.write("Full name,Country\n")
 
 for rec in csv_file:
     #print(rec)
     outfile.write(f"{rec[1]} ")
-    outfile.write(f"{rec[2]}, ")
+    outfile.write(f"{rec[2]},")
     outfile.write(f"{rec[4]}\n")
     x+=1
 

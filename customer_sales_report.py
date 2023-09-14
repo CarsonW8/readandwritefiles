@@ -24,6 +24,6 @@ for rec in csv_file:
 
 outfile.write(custid)
 outfile.write(',')
-outfile.write(f"{total:.2f}\n")
+outfile.write(f"{total:.2f}")
 
 outfile.close()
